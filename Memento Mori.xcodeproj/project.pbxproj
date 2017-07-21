@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		AB6007E91F22517700EEB13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6007E81F22517700EEB13A /* AppDelegate.swift */; };
-		AB6007EB1F22517700EEB13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6007EA1F22517700EEB13A /* ViewController.swift */; };
+		AB6007EB1F22517700EEB13A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6007EA1F22517700EEB13A /* MainVC.swift */; };
 		AB6007EE1F22517700EEB13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6007EC1F22517700EEB13A /* Main.storyboard */; };
 		AB6007F11F22517700EEB13A /* Memento_Mori.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB6007EF1F22517700EEB13A /* Memento_Mori.xcdatamodeld */; };
 		AB6007F31F22517700EEB13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6007F21F22517700EEB13A /* Assets.xcassets */; };
 		AB6007F61F22517700EEB13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6007F41F22517700EEB13A /* LaunchScreen.storyboard */; };
+		AB6008031F225D0C00EEB13A /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6008021F225D0C00EEB13A /* VideoVC.swift */; };
+		AB6008051F225E9B00EEB13A /* MagicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6008041F225E9B00EEB13A /* MagicCell.swift */; };
+		AB6008071F22605F00EEB13A /* MementoMori.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6008061F22605F00EEB13A /* MementoMori.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB6007E51F22517700EEB13A /* Memento Mori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memento Mori.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6007E81F22517700EEB13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB6007EA1F22517700EEB13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB6007EA1F22517700EEB13A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		AB6007ED1F22517700EEB13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB6007F01F22517700EEB13A /* Memento_Mori.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memento_Mori.xcdatamodel; sourceTree = "<group>"; };
 		AB6007F21F22517700EEB13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB6007F51F22517700EEB13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB6007F71F22517700EEB13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6008021F225D0C00EEB13A /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		AB6008041F225E9B00EEB13A /* MagicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicCell.swift; sourceTree = "<group>"; };
+		AB6008061F22605F00EEB13A /* MementoMori.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MementoMori.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		AB6007E71F22517700EEB13A /* Memento Mori */ = {
 			isa = PBXGroup;
 			children = (
+				AB6007FF1F22544200EEB13A /* View */,
+				AB6007FE1F22543A00EEB13A /* Model */,
+				AB6007FD1F22542F00EEB13A /* Controller */,
 				AB6007E81F22517700EEB13A /* AppDelegate.swift */,
-				AB6007EA1F22517700EEB13A /* ViewController.swift */,
 				AB6007EC1F22517700EEB13A /* Main.storyboard */,
-				AB6007F21F22517700EEB13A /* Assets.xcassets */,
 				AB6007F41F22517700EEB13A /* LaunchScreen.storyboard */,
+				AB6007F21F22517700EEB13A /* Assets.xcassets */,
 				AB6007F71F22517700EEB13A /* Info.plist */,
 				AB6007EF1F22517700EEB13A /* Memento_Mori.xcdatamodeld */,
 			);
 			path = "Memento Mori";
+			sourceTree = "<group>";
+		};
+		AB6007FD1F22542F00EEB13A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB6008021F225D0C00EEB13A /* VideoVC.swift */,
+				AB6007EA1F22517700EEB13A /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AB6007FE1F22543A00EEB13A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB6008061F22605F00EEB13A /* MementoMori.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AB6007FF1F22544200EEB13A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB6008041F225E9B00EEB13A /* MagicCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6008031F225D0C00EEB13A /* VideoVC.swift in Sources */,
 				AB6007F11F22517700EEB13A /* Memento_Mori.xcdatamodeld in Sources */,
-				AB6007EB1F22517700EEB13A /* ViewController.swift in Sources */,
+				AB6008051F225E9B00EEB13A /* MagicCell.swift in Sources */,
+				AB6007EB1F22517700EEB13A /* MainVC.swift in Sources */,
+				AB6008071F22605F00EEB13A /* MementoMori.swift in Sources */,
 				AB6007E91F22517700EEB13A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
