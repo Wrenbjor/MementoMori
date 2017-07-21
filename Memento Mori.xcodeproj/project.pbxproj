@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6007E91F22517700EEB13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6007E81F22517700EEB13A /* AppDelegate.swift */; };
+		AB6007EB1F22517700EEB13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6007EA1F22517700EEB13A /* ViewController.swift */; };
+		AB6007EE1F22517700EEB13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6007EC1F22517700EEB13A /* Main.storyboard */; };
+		AB6007F11F22517700EEB13A /* Memento_Mori.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB6007EF1F22517700EEB13A /* Memento_Mori.xcdatamodeld */; };
+		AB6007F31F22517700EEB13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6007F21F22517700EEB13A /* Assets.xcassets */; };
+		AB6007F61F22517700EEB13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6007F41F22517700EEB13A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB6007E51F22517700EEB13A /* Memento Mori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memento Mori.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6007E81F22517700EEB13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB6007EA1F22517700EEB13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB6007ED1F22517700EEB13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB6007F01F22517700EEB13A /* Memento_Mori.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memento_Mori.xcdatamodel; sourceTree = "<group>"; };
+		AB6007F21F22517700EEB13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6007F51F22517700EEB13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB6007F71F22517700EEB13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6007E21F22517700EEB13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6007DC1F22517700EEB13A = {
+			isa = PBXGroup;
+			children = (
+				AB6007E71F22517700EEB13A /* Memento Mori */,
+				AB6007E61F22517700EEB13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6007E61F22517700EEB13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6007E51F22517700EEB13A /* Memento Mori.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6007E71F22517700EEB13A /* Memento Mori */ = {
+			isa = PBXGroup;
+			children = (
+				AB6007E81F22517700EEB13A /* AppDelegate.swift */,
+				AB6007EA1F22517700EEB13A /* ViewController.swift */,
+				AB6007EC1F22517700EEB13A /* Main.storyboard */,
+				AB6007F21F22517700EEB13A /* Assets.xcassets */,
+				AB6007F41F22517700EEB13A /* LaunchScreen.storyboard */,
+				AB6007F71F22517700EEB13A /* Info.plist */,
+				AB6007EF1F22517700EEB13A /* Memento_Mori.xcdatamodeld */,
+			);
+			path = "Memento Mori";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6007E41F22517700EEB13A /* Memento Mori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6007FA1F22517700EEB13A /* Build configuration list for PBXNativeTarget "Memento Mori" */;
+			buildPhases = (
+				AB6007E11F22517700EEB13A /* Sources */,
+				AB6007E21F22517700EEB13A /* Frameworks */,
+				AB6007E31F22517700EEB13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memento Mori";
+			productName = "Memento Mori";
+			productReference = AB6007E51F22517700EEB13A /* Memento Mori.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6007DD1F22517700EEB13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WCRStudios;
+				TargetAttributes = {
+					AB6007E41F22517700EEB13A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TQYA7HWRL3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB6007E01F22517700EEB13A /* Build configuration list for PBXProject "Memento Mori" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6007DC1F22517700EEB13A;
+			productRefGroup = AB6007E61F22517700EEB13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6007E41F22517700EEB13A /* Memento Mori */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6007E31F22517700EEB13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6007F61F22517700EEB13A /* LaunchScreen.storyboard in Resources */,
+				AB6007F31F22517700EEB13A /* Assets.xcassets in Resources */,
+				AB6007EE1F22517700EEB13A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6007E11F22517700EEB13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6007F11F22517700EEB13A /* Memento_Mori.xcdatamodeld in Sources */,
+				AB6007EB1F22517700EEB13A /* ViewController.swift in Sources */,
+				AB6007E91F22517700EEB13A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB6007EC1F22517700EEB13A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6007ED1F22517700EEB13A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB6007F41F22517700EEB13A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6007F51F22517700EEB13A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB6007F81F22517700EEB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB6007F91F22517700EEB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6007FB1F22517700EEB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQYA7HWRL3;
+				INFOPLIST_FILE = "Memento Mori/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WCRStudios.apps.Memento-Mori";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB6007FC1F22517700EEB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQYA7HWRL3;
+				INFOPLIST_FILE = "Memento Mori/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WCRStudios.apps.Memento-Mori";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6007E01F22517700EEB13A /* Build configuration list for PBXProject "Memento Mori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6007F81F22517700EEB13A /* Debug */,
+				AB6007F91F22517700EEB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6007FA1F22517700EEB13A /* Build configuration list for PBXNativeTarget "Memento Mori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6007FB1F22517700EEB13A /* Debug */,
+				AB6007FC1F22517700EEB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB6007EF1F22517700EEB13A /* Memento_Mori.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB6007F01F22517700EEB13A /* Memento_Mori.xcdatamodel */,
+			);
+			currentVersion = AB6007F01F22517700EEB13A /* Memento_Mori.xcdatamodel */;
+			path = Memento_Mori.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB6007DD1F22517700EEB13A /* Project object */;
+}
