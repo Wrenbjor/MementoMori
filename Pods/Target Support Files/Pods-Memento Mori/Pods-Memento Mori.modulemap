@@ -1,0 +1,6 @@
+framework module Pods_Memento_Mori {
+  umbrella header "Pods-Memento Mori-umbrella.h"
+
+  export *
+  module * { export * }
+}
